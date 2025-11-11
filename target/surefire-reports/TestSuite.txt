@@ -1,4 +1,27 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 61.39 s -- in TestSuite
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 62.00 s <<< FAILURE! -- in TestSuite
+runner.HealthInsuranceRunner.runScenario["TC03: Validate CoverFox Health plans", "CoverFox Health Insurance test"](3) -- Time elapsed: 3.532 s <<< FAILURE!
+io.cucumber.testng.UndefinedStepException: 
+The step 'a precondition is valid' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("a precondition is valid")
+public void a_precondition_is_valid() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("an action is performed")
+public void an_action_is_performed() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("something should be asserted")
+public void something_should_be_asserted() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at ✽.a precondition is valid(file:///C:/github%20Trial%20Files/31stMayEvening/src/test/resources/coverFoxFeatures/CoverFoxHealthInsurance.feature:19)
+

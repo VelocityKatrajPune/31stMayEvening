@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>2/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>2/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Nov 08 22:35:55 IST 2025</td>
+<td>Started on:</td><td>Wed Nov 12 03:24:02 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>60 seconds (60963 ms)</td>
+<tr><td>Total time:</td><td>61 seconds (61604 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,69 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='runner.HealthInsuranceRunner.runScenario()'><b>runScenario</b><br>Test class: runner.HealthInsuranceRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC03: Validate CoverFox Health plans", "CoverFox Health Insurance test"<br/>
+<a href="#Output-904612411" onClick='toggleBox("Output-904612411", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-904612411" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-904612411">
+Setting browser as chrome<br/>
+Closing Browser<br/>
+</div>
+</td>
+<td><div><pre>io.cucumber.testng.UndefinedStepException: The step &apos;a precondition is valid&apos; and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;a precondition is valid&quot;)
+public void a_precondition_is_valid() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;an action is performed&quot;)
+public void an_action_is_performed() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;something should be asserted&quot;)
+public void something_should_be_asserted() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at ✽.a precondition is valid(file:///C:/github%20Trial%20Files/31stMayEvening/src/test/resources/coverFoxFeatures/CoverFoxHealthInsurance.feature:19)
+</pre></div><a href='#' onClick='toggleBox("stack-trace904612411", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace904612411'><pre>io.cucumber.testng.UndefinedStepException: The step &apos;a precondition is valid&apos; and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;a precondition is valid&quot;)
+public void a_precondition_is_valid() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;an action is performed&quot;)
+public void an_action_is_performed() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;something should be asserted&quot;)
+public void something_should_be_asserted() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at ✽.a precondition is valid(file:///C:/github%20Trial%20Files/31stMayEvening/src/test/resources/coverFoxFeatures/CoverFoxHealthInsurance.feature:19)
+</pre></div></td>
+<td>3</td>
+<td>runner.HealthInsuranceRunner@4218d6a3</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -76,11 +139,24 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='runner.HealthInsuranceRunner.runScenario()'><b>runScenario</b><br>Test class: runner.HealthInsuranceRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC02: Validate CoverFox Health Insurance plan for single person", "CoverFox Health Insurance test"<br/>
-<a href="#Output-2098830440" onClick='toggleBox("Output-2098830440", this, "Show output", "Hide output");'>Show output</a>
+<td title='runner.HealthInsuranceRunner.runScenario()'><b>runScenario</b><br>Test class: runner.HealthInsuranceRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC01: Validate CoverFox Health Insurance plan for single person", "CoverFox Health Insurance test"<br/>
+<a href="#Output-118363130" onClick='toggleBox("Output-118363130", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-2098830440" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-2098830440">
+<a href="#Output-118363130" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-118363130">
+Setting browser as chrome<br/>
+Closing Browser<br/>
+</div>
+</td>
+<td></td>
+<td>26</td>
+<td>runner.HealthInsuranceRunner@4218d6a3</td></tr>
+<tr>
+<td title='runner.HealthInsuranceRunner.runScenario()'><b>runScenario</b><br>Test class: runner.HealthInsuranceRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC02: Validate CoverFox Health Insurance plan for single person", "CoverFox Health Insurance test"<br/>
+<a href="#Output-2043702205" onClick='toggleBox("Output-2043702205", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2043702205" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2043702205">
 Setting browser as chrome<br/>
 getting pincode error msg, msg is Please enter a valid pincode<br/>
 getting mobile number error msg, msg is Please enter a valid mobile no.<br/>
@@ -92,21 +168,8 @@ Closing Browser<br/>
 </div>
 </td>
 <td></td>
-<td>31</td>
-<td>runner.HealthInsuranceRunner@776aec5c</td></tr>
-<tr>
-<td title='runner.HealthInsuranceRunner.runScenario()'><b>runScenario</b><br>Test class: runner.HealthInsuranceRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC01: Validate CoverFox Health Insurance plan for single person", "CoverFox Health Insurance test"<br/>
-<a href="#Output-576261694" onClick='toggleBox("Output-576261694", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-576261694" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-576261694">
-Setting browser as chrome<br/>
-Closing Browser<br/>
-</div>
-</td>
-<td></td>
-<td>26</td>
-<td>runner.HealthInsuranceRunner@776aec5c</td></tr>
+<td>28</td>
+<td>runner.HealthInsuranceRunner@4218d6a3</td></tr>
 </table><p>
 </body>
 </html>

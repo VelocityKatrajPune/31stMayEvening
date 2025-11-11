@@ -14,3 +14,8 @@ And I click on next button
 And I provide age as "34" and click on next button
 And I click on continue button
 Then validate error messages
+
+Scenario: TC03: Validate CoverFox Health plans
+    Given a precondition is valid
+    When an action is performed
+    Then something should be asserted

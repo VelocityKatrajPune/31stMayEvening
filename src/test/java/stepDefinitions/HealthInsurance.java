@@ -8,11 +8,7 @@ import org.testng.Reporter;
 import org.testng.asserts.SoftAssert;
 
 import com.coverFox.DriverConfig.DriverFactory;
-import com.coverFox.Pages.CoverFoxAddressDetailspage;
-import com.coverFox.Pages.CoverFoxHealthPlanPage;
-import com.coverFox.Pages.CoverFoxHomePage;
-import com.coverFox.Pages.CoverFoxMemberDetailsPage;
-import com.coverFox.Pages.CoverFoxResultPage;
+import com.coverFox.pages.*;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -23,7 +19,7 @@ public class HealthInsurance {
 	CoverFoxHomePage coverFoxHomePage = new CoverFoxHomePage(DriverFactory.getDriver());
 	CoverFoxHealthPlanPage coverFoxHealthPlanPage = new CoverFoxHealthPlanPage(DriverFactory.getDriver());
 	CoverFoxMemberDetailsPage coverFoxMemberDetailsPage = new CoverFoxMemberDetailsPage(DriverFactory.getDriver());
-	CoverFoxAddressDetailspage coverFoxAddressDetailspage = new CoverFoxAddressDetailspage(DriverFactory.getDriver());
+	CoverFoxAddressDetailsPage coverFoxAddressDetailspage = new CoverFoxAddressDetailsPage(DriverFactory.getDriver());
 	CoverFoxResultPage coverFoxResultPage = new CoverFoxResultPage(DriverFactory.getDriver());
 	SoftAssert softAssert = new SoftAssert();
 

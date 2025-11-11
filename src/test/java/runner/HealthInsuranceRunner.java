@@ -9,7 +9,7 @@ import io.cucumber.testng.CucumberOptions;
 @CucumberOptions(
 //give feature file path
 		features = {
-				"D:\\new eclipse\\31StMayCoverFoxTest\\src\\test\\resources\\coverFoxFeatures\\CoverFoxHealthInsurance.feature"}
+					"C:\\github Trial Files\\31stMayEvening\\src\\test\\resources\\coverFoxFeatures\\CoverFoxHealthInsurance.feature"}
 				, glue = { "stepDefinitions",
 				"hooks" }, 
 				plugin = {"pretty","html:target/cucumber-reports/reports.html"},

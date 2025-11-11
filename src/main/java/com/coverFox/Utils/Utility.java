@@ -69,7 +69,7 @@ public class Utility {
 	public static String readDataFromPropertiesFile(String Key) throws IOException
 	{
 		Properties properties=new Properties();
-		FileInputStream myFile=new FileInputStream("D:\\new eclipse\\31StMayCoverFoxTest\\src\\main\\resources\\config\\config.properties");
+		FileInputStream myFile=new FileInputStream("C:\\github Trial Files\\31stMayEvening\\src\\main\\resources\\Config\\Config.properties");
 		properties.load(myFile);
 		String value = properties.getProperty(Key);
 		System.out.println("reading"+Key+"and value is "+ value);
