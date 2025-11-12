@@ -17,5 +17,5 @@ Then validate error messages
 
 Scenario: TC03: Validate CoverFox Health plans
     Given a precondition is valid
-    When an action is performed
+    When made changes
     Then something should be asserted
